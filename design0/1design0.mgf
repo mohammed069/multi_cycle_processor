@@ -1,0 +1,109 @@
+I 000044 55 605           1743964341776 sim
+(_unit VHDL (test 0 1 (sim 0 14 ))
+  (_version v33)
+  (_time 1743964341773 2025.04.06 20:32:21)
+  (_source (\./src/test.vhd\))
+  (_use (std(standard)))
+  (_parameters dbg )
+  (_entity
+    (_time 1743964341774)
+    (_use )
+  )
+  (_object
+    (_port (_internal x ~extSTD.STANDARD.BIT 0 6 (_entity (_in ))))
+    (_port (_internal y ~extSTD.STANDARD.BIT 0 7 (_entity (_out ))))
+    (_port (_internal a ~extSTD.STANDARD.BIT 0 8 (_entity (_buffer ))))
+    (_port (_internal b ~extSTD.STANDARD.BIT 0 9 (_entity (_inout ))))
+    (_type (_external ~extSTD.STANDARD.BIT (std STANDARD BIT)))
+  )
+)
+I 000044 55 758           1743964388123 sim
+(_unit VHDL (test 0 1 (sim 0 14 ))
+  (_version v33)
+  (_time 1743964388122 2025.04.06 20:33:08)
+  (_source (\./src/test.vhd\))
+  (_use (std(standard)))
+  (_parameters dbg )
+  (_entity
+    (_time 1743964341774)
+    (_use )
+  )
+  (_object
+    (_port (_internal x ~extSTD.STANDARD.BIT 0 6 (_entity (_in ))))
+    (_port (_internal y ~extSTD.STANDARD.BIT 0 7 (_entity (_out ))))
+    (_port (_internal a ~extSTD.STANDARD.BIT 0 8 (_entity (_buffer ))))
+    (_port (_internal b ~extSTD.STANDARD.BIT 0 9 (_entity (_inout ))))
+    (_process
+      (line__18(_architecture 0 0 18 (_assignment (_simple)(_alias((y)(_string \"1"\)))(_target(1)))))
+    )
+    (_type (_external ~extSTD.STANDARD.BIT (std STANDARD BIT)))
+  )
+  (_model . sim 1 -1
+  )
+)
+I 000044 55 770           1743964466112 sim
+(_unit VHDL (test 0 1 (sim 0 14 ))
+  (_version v33)
+  (_time 1743964466111 2025.04.06 20:34:26)
+  (_source (\./src/test.vhd\))
+  (_use (std(standard)))
+  (_parameters dbg )
+  (_entity
+    (_time 1743964466102)
+    (_use )
+  )
+  (_object
+    (_port (_internal x ~extSTD.STANDARD.BIT 0 6 (_entity (_in ((i 0))))))
+    (_port (_internal y ~extSTD.STANDARD.BIT 0 7 (_entity (_out ))))
+    (_port (_internal a ~extSTD.STANDARD.BIT 0 8 (_entity (_buffer ))))
+    (_port (_internal b ~extSTD.STANDARD.BIT 0 9 (_entity (_inout ))))
+    (_process
+      (line__18(_architecture 0 0 18 (_assignment (_simple)(_alias((y)(x)))(_target(1))(_sensitivity(0)))))
+    )
+    (_type (_external ~extSTD.STANDARD.BIT (std STANDARD BIT)))
+  )
+  (_model . sim 1 -1
+  )
+)
+I 000044 55 721           1743965168742 sim
+(_unit VHDL (test 0 5 (sim 0 16 ))
+  (_version v33)
+  (_time 1743965168741 2025.04.06 20:46:08)
+  (_source (\./src/test.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1743964662968)
+    (_use )
+  )
+  (_object
+    (_port (_internal x ~extieee.std_logic_1164.std_logic 0 10 (_entity (_in ((i 2))))))
+    (_port (_internal y ~extieee.std_logic_1164.std_ulogic 0 11 (_entity (_out ((i 2))))))
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+  )
+)
+V 000044 55 721           1743965187517 sim
+(_unit VHDL (test 0 5 (sim 0 16 ))
+  (_version v33)
+  (_time 1743965187516 2025.04.06 20:46:27)
+  (_source (\./src/test.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1743964662968)
+    (_use )
+  )
+  (_object
+    (_port (_internal x ~extieee.std_logic_1164.std_logic 0 10 (_entity (_in ((i 2))))))
+    (_port (_internal y ~extieee.std_logic_1164.std_ulogic 0 11 (_entity (_out ((i 2))))))
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+  )
+)
