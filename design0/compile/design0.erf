@@ -1,5 +1,4 @@
 MESSAGE "File: c:\hardware_design_projects\design1\design0\src\test.vhd" 
 MESSAGE "Compile Entity "test"" 
-MESSAGE "Entity `test' has been skipped - no difference detected." 
 MESSAGE "Compile Architecture "sim" of Entity "test"" 
 SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]" 

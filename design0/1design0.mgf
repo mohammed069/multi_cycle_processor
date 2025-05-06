@@ -86,7 +86,7 @@ I 000044 55 721           1743965168742 sim
     (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
   )
 )
-V 000044 55 721           1743965187517 sim
+I 000044 55 721           1743965187517 sim
 (_unit VHDL (test 0 5 (sim 0 16 ))
   (_version v33)
   (_time 1743965187516 2025.04.06 20:46:27)
@@ -105,5 +105,17 @@ V 000044 55 721           1743965187517 sim
     )
     (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
     (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+  )
+)
+V 000044 55 261           1746543393354 sim
+(_unit VHDL (test 0 5 (sim 0 10 ))
+  (_version v33)
+  (_time 1746543393351 2025.05.06 17:56:33)
+  (_source (\./src/test.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1746543393352)
+    (_use )
   )
 )
