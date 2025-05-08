@@ -1,1 +1,9 @@
 .\src\test.vhd
+.\src\pc.vhd
+.\src\memory.vhd
+.\src\InstructionRegester.vhd
+.\src\MDR.vhd
+.\src\Registers.vhd
+.\src\A.vhd
+.\src\B.vhd
+.\src\ALUout.vhd

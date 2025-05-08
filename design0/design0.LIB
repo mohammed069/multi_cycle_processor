@@ -1,4 +1,88 @@
-timestamp=1746543393365
+timestamp=1746732293623
+
+[a]
+A/behavioral=A/Behavioral 21|./src/A.vhd|17|1*92782
+B/behavioral=3*32190
+H/behavioral=0*137416
+R=./src/A.vhd|7
+V=0*139264
+
+[aluout]
+A/behavioral=A/Behavioral 21|./src/ALUout.vhd|17|1*96774
+B/behavioral=3*34522
+H/behavioral=0*144283
+R=./src/ALUout.vhd|7
+V=0*146134
+
+[b]
+A/behavioral=A/Behavioral 21|./src/B.vhd|17|1*94778
+B/behavioral=3*33356
+H/behavioral=0*140839
+R=./src/B.vhd|7
+V=0*142687
+
+[instructionregister]
+A/behavioral=A/Behavioral 21|./src/InstructionRegester.vhd|17|1*80092
+B/behavioral=3*27788
+H/behavioral=0*119441
+R=./src/InstructionRegester.vhd|7
+V=0*109442
+
+[mdr]
+A/behavioral=A/Behavioral 21|./src/MDR.vhd|16|1*82234
+B/behavioral=3*29026
+H/behavioral=0*121128
+R=./src/MDR.vhd|7
+V=0*123018
+
+[memory]
+A/behavioral=A/Behavioral 21|./src/memory.vhd|19|1*73969
+B/behavioral=3*24138
+H/behavioral=0*111269
+R=./src/memory.vhd|7
+V=0*117529
+
+[memorydataregister]
+A/behavioral=A/Behavioral 21|./src/MDR.vhd|17|1*18431
+B/behavioral=3*6034
+H/behavioral=0*25305
+R=./src/MDR.vhd|7
+V=0*27315
+
+[mux2]
+A/behavioral=A/Behavioral 21|./src/MUX_2in_32.vhd|16|1*9305
+B/behavioral=3*873
+H/behavioral=0*8721
+R=./src/MUX_2in_32.vhd|6
+V=0*9877
+
+[pc]
+A/behavioral=A/Behavioral 21|./src/pc.vhd|18|1*70102
+B/behavioral=3*22027
+H/behavioral=0*106446
+R=./src/pc.vhd|7
+V=0*105126
+
+[programcounter]
+A/behavioral=A/Behavioral 21|./src/pc.vhd|18|1*7570
+B/behavioral=3*0
+H/behavioral=0*7887
+R=./src/pc.vhd|7
+V=0*5697
+
+[registers]
+A/behavioral=A/Behavioral 21|./src/Registers.vhd|21|1*87513
+B/behavioral=3*30192
+H/behavioral=0*131627
+R=./src/Registers.vhd|7
+V=0*128326
+
+[tempregisters]
+A/behavioral=A/Behavioral 21|./src/A.vhd|19|1*35852
+B/behavioral=3*10436
+H/behavioral=0*59836
+R=./src/A.vhd|7
+V=0*61772
 
 [test]
 A/sim=21|./src/test.vhd|10|1*3795
@@ -7,15 +91,52 @@ R=./src/test.vhd|5
 V=0*4414
 
 [~A]
+./src/A.vhd~A=0*137069*137363
+./src/A.vhd~BehavioralA=0*138241*138540
+./src/A.vhd~BehavioralTempRegisters=0*60657*60976
+./src/A.vhd~TempRegisters=0*59438*59771
+./src/ALUout.vhd~ALUout=0*143915*144220
+./src/ALUout.vhd~BehavioralALUout=0*145101*145383
+./src/B.vhd~B=0*140492*140786
+./src/B.vhd~BehavioralB=0*141664*141963
+./src/InstructionRegester.vhd~BehavioralInstructionRegister=0*120273*120670
+./src/InstructionRegester.vhd~InstructionRegister=0*106844*107219
+./src/MDR.vhd~BehavioralMDR=0*121955*122272
+./src/MDR.vhd~BehavioralMemoryDataRegister=0*26132*26487
+./src/MDR.vhd~MDR=0*120769*121071
+./src/MDR.vhd~MemoryDataRegister=0*24885*25233
+./src/MUX_2in_32.vhd~BehavioralMux2=0*8816*9002
+./src/MUX_2in_32.vhd~Mux2=0*8316*8656
+./src/Registers.vhd~BehavioralRegisters=0*132963*133551
+./src/Registers.vhd~Registers=0*124250*124811
+./src/memory.vhd~BehavioralMemory=0*114817*116499
+./src/memory.vhd~Memory=0*110796*111206
+./src/pc.vhd~BehavioralPC=0*106541*106779
+./src/pc.vhd~BehavioralProgramCounter=0*7982*8239
+./src/pc.vhd~PC=0*103623*103949
+./src/pc.vhd~ProgramCounter=0*4486*4850
 ./src/test.vhd~simtest=0*4038*4133
 ./src/test.vhd~test=0*3774*3898
-ModifyID=56
+ModifyID=402
 Version=73
 
 [~MFT]
-0=67|0design0.mgf|4414|3774
-1=10|1design0.mgf|3795|3795
+0=457|0design0.mgf|146134|96656
+1=70|1design0.mgf|96774|69824
+3=55|3design0.mgf|34522|19571
 
 [~U]
+a=11|0*138603|0*138797
+aluout=11|0*145456|0*145661
+b=11|0*142026|0*142220
+instructionregister=11|0*108636|0*108910
+mdr=11|0*122339|0*122543
+memory=11|0*116572|0*116868
+memorydataregister=MemoryDataRegister 11|0*26569|0*26814
+mux2=Mux2 11|0*9077|0*9300
+pc=11|0*104402|0*104627
+programcounter=ProgramCounter 11|0*4917|0*5176
+registers=11|0*126883|0*127290
+tempregisters=TempRegisters 11|0*61051|0*61281
 test=11|0*4195|0*4248
 

@@ -26,14 +26,31 @@ FLOWTOOLS=ONLY_IMPL
 [IMPLEMENTATION]
 UCF=
 
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=test|sim|0
+ShowHide=ShowTopLevel
+Selected=
+
 [Files]
 /test.vhd=-1
+/pc.vhd=-1
+/memory.vhd=-1
+/InstructionRegester.vhd=-1
+/MDR.vhd=-1
+/Registers.vhd=-1
+/A.vhd=-1
+/B.vhd=-1
+/ALUout.vhd=-1
 
 [Files.Data]
 .\src\test.vhd=VHDL Source Code
+.\src\pc.vhd=VHDL Source Code
+.\src\memory.vhd=VHDL Source Code
+.\src\InstructionRegester.vhd=VHDL Source Code
+.\src\MDR.vhd=VHDL Source Code
+.\src\Registers.vhd=VHDL Source Code
+.\src\A.vhd=VHDL Source Code
+.\src\B.vhd=VHDL Source Code
+.\src\ALUout.vhd=VHDL Source Code
 
-[HierarchyViewer]
-SortInfo=u
-HierarchyInformation=test|sim|0  
-ShowHide=ShowTopLevel
-Selected=

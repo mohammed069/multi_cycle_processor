@@ -1,3 +1,27 @@
-56
+402
+~E 1 "./src/MUX_2in_32.vhd" 6 mux2
+~A 1 "./src/MUX_2in_32.vhd" 16 behavioral
+~E 1 "./src/InstructionRegester.vhd" 7 instructionregister
+~A 1 "./src/InstructionRegester.vhd" 17 behavioral
+~E 1 "./src/ALUout.vhd" 7 aluout
+~A 1 "./src/ALUout.vhd" 17 behavioral
+~E 1 "./src/A.vhd" 7 a
+~A 1 "./src/A.vhd" 17 behavioral
+~E 1 "./src/B.vhd" 7 b
+~A 1 "./src/B.vhd" 17 behavioral
+~E 1 "./src/memory.vhd" 7 memory
+~A 1 "./src/memory.vhd" 19 behavioral
+~E 1 "./src/MDR.vhd" 7 mdr
+~A 1 "./src/MDR.vhd" 16 behavioral
+~E 1 "./src/MDR.vhd" 7 memorydataregister
+~A 1 "./src/MDR.vhd" 17 behavioral
+~E 1 "./src/pc.vhd" 7 programcounter
+~A 1 "./src/pc.vhd" 18 behavioral
+~E 1 "./src/pc.vhd" 7 pc
+~A 1 "./src/pc.vhd" 18 behavioral
+~E 1 "./src/A.vhd" 7 tempregisters
+~A 1 "./src/A.vhd" 19 behavioral
+~E 1 "./src/Registers.vhd" 7 registers
+~A 1 "./src/Registers.vhd" 21 behavioral
 ~E 1 "./src/test.vhd" 5 test
 ~A 1 "./src/test.vhd" 10 sim
