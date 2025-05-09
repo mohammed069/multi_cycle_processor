@@ -1,4 +1,4 @@
-MESSAGE "File: c:\hardware_design_projects\design1\design0\src\ALUout.vhd" 
-MESSAGE "Compile Entity "ALUout"" 
-MESSAGE "Compile Architecture "Behavioral" of Entity "ALUout"" 
+MESSAGE "File: c:\hardware_design_projects\design1\design0\src\ControlUnit.vhd" 
+MESSAGE "Compile Entity "ControlUnit"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "ControlUnit"" 
 SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]" 

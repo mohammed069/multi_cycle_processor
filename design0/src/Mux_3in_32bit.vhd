@@ -9,7 +9,7 @@ entity Mux3to1_32bit is
         in_3    : in std_logic_vector(31 downto 0);
         mux_sel : in std_logic_vector(1 downto 0);
         output  : out std_logic_vector(31 downto 0) );
-end Mux3;
+end entity;
 
 architecture bev of Mux3to1_32bit is
 

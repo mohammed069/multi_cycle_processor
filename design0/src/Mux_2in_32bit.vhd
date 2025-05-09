@@ -13,6 +13,6 @@ end entity;
 architecture bev of Mux2to1_32bit is
 begin
   with mux_sel select
-  output <= input_1 when '0', input_2 when others;
+  output <= in_1 when '0', in_2 when others;
   
 end architecture;
