@@ -1,17 +1,17 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
-entity Mux2to1_5bit is
+
+entity Mux2_5 is
   port( 
-        in_1    : in std_logic_vector(4 downto 0);
-        in_2    : in std_logic_vector(4 downto 0);
-        mux_sel : in std_logic;
-        output  : out std_logic_vector(4 downto 0) );
-end entity;
+        input_1    : in std_logic_vector(4 downto 0);
+        input_2    : in std_logic_vector(4 downto 0);
+        mux_select : in std_logic;
+        output     : out std_logic_vector(4 downto 0) );
+end Mux2_5;
 
-architecture arc of Mux2to1_5bit is
+architecture Behavioral of Mux2_5 is
 begin
-  with mux_sel select
-    output <= in_1 when '0', in_2 when others;
-
-end architecture;
+  with mux_select select
+    output <= input_1 when '0', input_2 when others;
+end Behavioral;

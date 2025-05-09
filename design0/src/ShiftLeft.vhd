@@ -6,11 +6,9 @@ entity ShiftLeft is
   port( 
         input  : in std_logic_vector(31 downto 0);
         output : out std_logic_vector(31 downto 0) );
-end entity;
+end ShiftLeft;
 
-architecture bev of ShiftLeft is
+architecture Behavioral of ShiftLeft is
 begin
-
   output <= std_logic_vector(unsigned(input) sll 2);
-
-end architecture;
+end Behavioral;

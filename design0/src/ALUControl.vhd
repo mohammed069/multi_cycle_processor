@@ -3,23 +3,20 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity ALUControl is
-  port( 
+  port(
         ALUOp   : in std_logic_vector(1 downto 0);
         instr   : in std_logic_vector(5 downto 0);
-        result  : out std_logic_vector(3 downto 0) );
-end entity;
+        result      : out std_logic_vector(3 downto 0) );
+end ALUControl;
 
-architecture arc of ALUControl is
+architecture Behavioral of ALUControl is
   signal temp, operation : std_logic_vector(3 downto 0) := "1111";
-
 begin
-
   with ALUOp select
     temp <= "0000"    when "00",    
             "0110"    when "01",    
             operation when "10",    
             "1111"    when others;  
-
   with instr select
     operation <= "0000" when "100000", 
                  "0001" when "100010", 
@@ -34,7 +31,5 @@ begin
                  "1010" when "001100", 
                  "1011" when "001101", 
                  "1111" when others;
-
   result <= temp;
-
-end architecture;
+end Behavioral;
