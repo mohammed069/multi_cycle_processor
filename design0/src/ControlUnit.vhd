@@ -40,7 +40,6 @@ architecture Behavioral of ControlUnit is
 
   signal current_state, next_state : state;
   signal ctrl_state : std_logic_vector(15 downto 0) := (others => '0');
-
 begin
 
   process(CLK, Reset, Op)
@@ -68,8 +67,8 @@ begin
                                 elsif Op = "000010" then 
                                   next_state <= JumpCompletion;
                                 end if;
-
-      when MemoryAddressComp => if Op = "100011" then 
+								
+	when MemoryAddressComp => if Op = "100011" then 
                                   next_state <= MemoryAccessLoad;
                                 else 
                                   next_state <= MemoryAccessStore;
@@ -93,7 +92,7 @@ begin
 
     end case;
   end process;
-
+  
   with current_state select
     ctrl_state <= "1001001000001000" when InstructionFetch,
                   "0000000000011000" when InstructionDecode,

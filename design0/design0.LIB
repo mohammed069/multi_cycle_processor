@@ -1,4 +1,4 @@
-timestamp=1746776060193
+timestamp=1746778825326
 
 [a]
 A/behavioral=A/Behavioral 21|./src/A.vhd|17|1*92782
@@ -29,9 +29,9 @@ R=./src/B.vhd|7
 V=0*142687
 
 [controlunit]
-A/behavioral=A/Behavioral 21|./src/ControlUnit.vhd|26|1*118425
+A/behavioral=A/Behavioral 21|./src/ControlUnit.vhd|26|1*124931
 B/behavioral=3*43283
-H/behavioral=0*179521
+H/behavioral=0*188371
 R=./src/ControlUnit.vhd|5
 V=0*185221
 
@@ -165,7 +165,7 @@ V=0*4414
 ./src/ALUout.vhd~BehavioralALUout=0*148190*148472
 ./src/B.vhd~B=0*140492*140786
 ./src/B.vhd~BehavioralB=0*141664*141963
-./src/ControlUnit.vhd~BehavioralControlUnit=0*180862*183602
+./src/ControlUnit.vhd~BehavioralControlUnit=0*189712*192464
 ./src/ControlUnit.vhd~ControlUnit=0*178766*179448
 ./src/InstructionRegester.vhd~BehavioralInstructionRegister=0*120273*120670
 ./src/InstructionRegester.vhd~InstructionRegister=0*106844*107219
@@ -199,13 +199,13 @@ V=0*4414
 ./src/pc.vhd~ProgramCounter=0*4486*4850
 ./src/test.vhd~simtest=0*4038*4133
 ./src/test.vhd~test=0*3774*3898
-ModifyID=477
+ModifyID=483
 Version=73
 
 [~MFT]
-0=539|0design0.mgf|185221|98583
-1=83|1design0.mgf|118425|74425
-3=68|3design0.mgf|43283|19571
+0=545|0design0.mgf|192464|102747
+1=85|1design0.mgf|124931|80931
+3=70|3design0.mgf|43283|19571
 
 [~U]
 a=11|0*138603|0*138797

@@ -16,3 +16,4 @@ i<>.\src\Mux_4in_32bit.vhd
 i<>.\src\ShiftLeft.vhd
 i<>.\src\ShiftLeft2.vhd
 i<>.\src\SignExtend.vhd
+i<>.\src\ControlUnit.vhd

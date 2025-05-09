@@ -1,4 +1,4 @@
-477
+483
 ~E 1 "./src/memory.vhd" 7 memory
 ~A 1 "./src/memory.vhd" 19 behavioral
 ~E 1 "./src/B.vhd" 7 b

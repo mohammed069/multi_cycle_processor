@@ -16,3 +16,4 @@
 .\src\ShiftLeft.vhd
 .\src\ShiftLeft2.vhd
 .\src\SignExtend.vhd
+.\src\ControlUnit.vhd

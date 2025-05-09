@@ -51,6 +51,7 @@ Selected=
 /ShiftLeft.vhd=-1
 /ShiftLeft2.vhd=-1
 /SignExtend.vhd=-1
+/ControlUnit.vhd=-1
 
 [Files.Data]
 .\src\test.vhd=VHDL Source Code
@@ -71,4 +72,5 @@ Selected=
 .\src\ShiftLeft.vhd=VHDL Source Code
 .\src\ShiftLeft2.vhd=VHDL Source Code
 .\src\SignExtend.vhd=VHDL Source Code
+.\src\ControlUnit.vhd=VHDL Source Code
 
