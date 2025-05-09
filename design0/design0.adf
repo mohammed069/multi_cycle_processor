@@ -42,6 +42,16 @@ Selected=
 /A.vhd=-1
 /B.vhd=-1
 /ALUout.vhd=-1
+/ALU.vhd=-1
+/ALUControl.vhd=-1
+/Mux_2in_32bit.vhd=-1
+/Mux_2in_5bit.vhd=-1
+/Mux_3in_32bit.vhd=-1
+/Mux_4in_32bit.vhd=-1
+/ShiftLeft.vhd=-1
+/ShiftLeft2.vhd=-1
+/SignExtend.vhd=-1
+/ControlUnit.vhd=-1
 
 [Files.Data]
 .\src\test.vhd=VHDL Source Code
@@ -53,4 +63,14 @@ Selected=
 .\src\A.vhd=VHDL Source Code
 .\src\B.vhd=VHDL Source Code
 .\src\ALUout.vhd=VHDL Source Code
+.\src\ALU.vhd=VHDL Source Code
+.\src\ALUControl.vhd=VHDL Source Code
+.\src\Mux_2in_32bit.vhd=VHDL Source Code
+.\src\Mux_2in_5bit.vhd=VHDL Source Code
+.\src\Mux_3in_32bit.vhd=VHDL Source Code
+.\src\Mux_4in_32bit.vhd=VHDL Source Code
+.\src\ShiftLeft.vhd=VHDL Source Code
+.\src\ShiftLeft2.vhd=VHDL Source Code
+.\src\SignExtend.vhd=VHDL Source Code
+.\src\ControlUnit.vhd=VHDL Source Code
 

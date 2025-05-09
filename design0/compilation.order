@@ -7,3 +7,13 @@
 .\src\A.vhd
 .\src\B.vhd
 .\src\ALUout.vhd
+.\src\ALU.vhd
+.\src\ALUControl.vhd
+.\src\Mux_2in_32bit.vhd
+.\src\Mux_2in_5bit.vhd
+.\src\Mux_3in_32bit.vhd
+.\src\Mux_4in_32bit.vhd
+.\src\ShiftLeft.vhd
+.\src\ShiftLeft2.vhd
+.\src\SignExtend.vhd
+.\src\ControlUnit.vhd

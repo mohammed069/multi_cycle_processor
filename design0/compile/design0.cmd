@@ -1,1 +1,1 @@
--w -s "c:\hardware_design_projects\design1\library.cfg"  -j "c:\hardware_design_projects\design1\design0\projlib.cfg"  -d "c:\hardware_design_projects\design1\design0\compile\"  -work design0 -dbg -e 100 "c:\hardware_design_projects\design1\design0\src\ALUout.vhd" 
+-w -s "c:\hardware_design_projects\design1\library.cfg"  -j "c:\hardware_design_projects\design1\design0\projlib.cfg"  -d "c:\hardware_design_projects\design1\design0\compile\"  -work design0 -dbg -e 100 "c:\hardware_design_projects\design1\design0\src\ControlUnit.vhd" 

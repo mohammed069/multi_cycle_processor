@@ -1,4 +1,4 @@
-timestamp=1746732293623
+timestamp=1746778825326
 
 [a]
 A/behavioral=A/Behavioral 21|./src/A.vhd|17|1*92782
@@ -7,10 +7,17 @@ H/behavioral=0*137416
 R=./src/A.vhd|7
 V=0*139264
 
+[alucontrol]
+A/arc=21|./src/ALUControl.vhd|12|1*103361
+B/arc=3*35688
+H/arc=0*152708
+R=./src/ALU.vhd|5
+V=0*151166
+
 [aluout]
-A/behavioral=A/Behavioral 21|./src/ALUout.vhd|17|1*96774
+A/behavioral=A/Behavioral 21|./src/ALUout.vhd|17|1*98760
 B/behavioral=3*34522
-H/behavioral=0*144283
+H/behavioral=0*147372
 R=./src/ALUout.vhd|7
 V=0*146134
 
@@ -20,6 +27,13 @@ B/behavioral=3*33356
 H/behavioral=0*140839
 R=./src/B.vhd|7
 V=0*142687
+
+[controlunit]
+A/behavioral=A/Behavioral 21|./src/ControlUnit.vhd|26|1*124931
+B/behavioral=3*43283
+H/behavioral=0*188371
+R=./src/ControlUnit.vhd|5
+V=0*185221
 
 [instructionregister]
 A/behavioral=A/Behavioral 21|./src/InstructionRegester.vhd|17|1*80092
@@ -56,6 +70,34 @@ H/behavioral=0*8721
 R=./src/MUX_2in_32.vhd|6
 V=0*9877
 
+[mux2to1_32bit]
+A/bev=21|./src/Mux_2in_32bit.vhd|13|1*106000
+B/bev=3*38219
+H/bev=0*157125
+R=./src/Mux_2in_32bit.vhd|5
+V=0*155474
+
+[mux2to1_5bit]
+A/arc=21|./src/Mux_2in_5bit.vhd|12|1*107615
+B/arc=3*38701
+H/arc=0*157873
+R=./src/Mux_2in_5bit.vhd|4
+V=0*159007
+
+[mux3to1_32bit]
+A/bev=21|./src/Mux_3in_32bit.vhd|14|1*109217
+B/bev=3*39183
+H/bev=0*161137
+R=./src/Mux_3in_32bit.vhd|5
+V=0*163276
+
+[mux4to1_32bit]
+A/bev=21|./src/Mux_4in_32bit.vhd|15|1*111655
+B/bev=3*40246
+H/bev=0*166352
+R=./src/Mux_4in_32bit.vhd|5
+V=0*168671
+
 [pc]
 A/behavioral=A/Behavioral 21|./src/pc.vhd|18|1*70102
 B/behavioral=3*22027
@@ -77,6 +119,27 @@ H/behavioral=0*131627
 R=./src/Registers.vhd|7
 V=0*128326
 
+[shiftleft]
+A/bev=21|./src/ShiftLeft.vhd|11|1*114327
+B/bev=3*41441
+H/bev=0*172043
+R=./src/ShiftLeft.vhd|5
+V=0*172969
+
+[shiftleft_2bit]
+A/bev=21|./src/ShiftLeft2.vhd|11|1*115705
+B/bev=3*41959
+H/bev=0*174383
+R=./src/ShiftLeft2.vhd|5
+V=0*175318
+
+[signextend]
+A/bev=21|./src/SignExtend.vhd|11|1*117033
+B/bev=3*42501
+H/bev=0*176726
+R=./src/SignExtend.vhd|5
+V=0*177700
+
 [tempregisters]
 A/behavioral=A/Behavioral 21|./src/A.vhd|19|1*35852
 B/behavioral=3*10436
@@ -95,10 +158,15 @@ V=0*4414
 ./src/A.vhd~BehavioralA=0*138241*138540
 ./src/A.vhd~BehavioralTempRegisters=0*60657*60976
 ./src/A.vhd~TempRegisters=0*59438*59771
+./src/ALU.vhd~ALUControl=0*148545*148850
+./src/ALU.vhd~arcALUControl=0*149668*150350
+./src/ALUControl.vhd~arcALUControl=0*153462*154151
 ./src/ALUout.vhd~ALUout=0*143915*144220
-./src/ALUout.vhd~BehavioralALUout=0*145101*145383
+./src/ALUout.vhd~BehavioralALUout=0*148190*148472
 ./src/B.vhd~B=0*140492*140786
 ./src/B.vhd~BehavioralB=0*141664*141963
+./src/ControlUnit.vhd~BehavioralControlUnit=0*189712*192464
+./src/ControlUnit.vhd~ControlUnit=0*178766*179448
 ./src/InstructionRegester.vhd~BehavioralInstructionRegister=0*120273*120670
 ./src/InstructionRegester.vhd~InstructionRegister=0*106844*107219
 ./src/MDR.vhd~BehavioralMDR=0*121955*122272
@@ -107,8 +175,22 @@ V=0*4414
 ./src/MDR.vhd~MemoryDataRegister=0*24885*25233
 ./src/MUX_2in_32.vhd~BehavioralMux2=0*8816*9002
 ./src/MUX_2in_32.vhd~Mux2=0*8316*8656
+./src/Mux_2in_32bit.vhd~Mux2to1_32bit=0*154225*154571
+./src/Mux_2in_32bit.vhd~bevMux2to1_32bit=0*157206*157375
+./src/Mux_2in_5bit.vhd~Mux2to1_5bit=0*157455*157798
+./src/Mux_2in_5bit.vhd~arcMux2to1_5bit=0*157954*158120
+./src/Mux_3in_32bit.vhd~Mux3to1_32bit=0*160650*161060
+./src/Mux_3in_32bit.vhd~bevMux3to1_32bit=0*161780*162102
+./src/Mux_4in_32bit.vhd~Mux4to1_32bit=0*165821*166275
+./src/Mux_4in_32bit.vhd~bevMux4to1_32bit=0*166995*167337
 ./src/Registers.vhd~BehavioralRegisters=0*132963*133551
 ./src/Registers.vhd~Registers=0*124250*124811
+./src/ShiftLeft.vhd~ShiftLeft=0*171710*171974
+./src/ShiftLeft.vhd~bevShiftLeft=0*172124*172296
+./src/ShiftLeft2.vhd~ShiftLeft_2bit=0*174033*174308
+./src/ShiftLeft2.vhd~bevShiftLeft_2bit=0*174464*174616
+./src/SignExtend.vhd~SignExtend=0*176388*176655
+./src/SignExtend.vhd~bevSignExtend=0*176807*177022
 ./src/memory.vhd~BehavioralMemory=0*114817*116499
 ./src/memory.vhd~Memory=0*110796*111206
 ./src/pc.vhd~BehavioralPC=0*106541*106779
@@ -117,26 +199,35 @@ V=0*4414
 ./src/pc.vhd~ProgramCounter=0*4486*4850
 ./src/test.vhd~simtest=0*4038*4133
 ./src/test.vhd~test=0*3774*3898
-ModifyID=402
+ModifyID=483
 Version=73
 
 [~MFT]
-0=457|0design0.mgf|146134|96656
-1=70|1design0.mgf|96774|69824
-3=55|3design0.mgf|34522|19571
+0=545|0design0.mgf|192464|102747
+1=85|1design0.mgf|124931|80931
+3=70|3design0.mgf|43283|19571
 
 [~U]
 a=11|0*138603|0*138797
+alucontrol=ALUControl 11|0*150417|0*150624
 aluout=11|0*145456|0*145661
 b=11|0*142026|0*142220
+controlunit=ControlUnit 11|0*183685|0*184227
 instructionregister=11|0*108636|0*108910
 mdr=11|0*122339|0*122543
 memory=11|0*116572|0*116868
 memorydataregister=MemoryDataRegister 11|0*26569|0*26814
 mux2=Mux2 11|0*9077|0*9300
+mux2to1_32bit=Mux2to1_32bit 11|0*154648|0*154889
+mux2to1_5bit=Mux2to1_5bit 11|0*158198|0*158433
+mux3to1_32bit=Mux3to1_32bit 11|0*162182|0*162469
+mux4to1_32bit=Mux4to1_32bit 11|0*167417|0*167738
 pc=11|0*104402|0*104627
 programcounter=ProgramCounter 11|0*4917|0*5176
 registers=11|0*126883|0*127290
+shiftleft=ShiftLeft 11|0*172368|0*172540
+shiftleft_2bit=ShiftLeft_2bit 11|0*174694|0*174881
+signextend=SignExtend 11|0*177096|0*177271
 tempregisters=TempRegisters 11|0*61051|0*61281
 test=11|0*4195|0*4248
 
